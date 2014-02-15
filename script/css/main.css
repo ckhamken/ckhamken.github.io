@@ -7,13 +7,30 @@ body {
 .jumbotron {
     background:url('http://www.chriskhamken.com/images/travel/hawaii_wide.jpg') no-repeat;
     background-size:cover;
-    background-position:-50px;
+    background-position:center 30%;
 }
 .jumbotron .container {
     background-color:#333;
     color:#EEE;
     padding:50px;
     background:rgba(0,0,0,0.5);
+}
+.jumbotron a:hover {
+    text-decoration:none;
+}
+.jumbotron a:hover .container {
+    background:rgba(0,0,0,0.7);
+}
+section {
+    margin:50px auto;
+}
+
+section date {
+    border-bottom:1px dotted #EEE;
+    display:block;
+    margin-bottom: 15px;
+    padding-bottom:15px;
+    font-style:italic;
 }
 .nav {
     padding:0px;
