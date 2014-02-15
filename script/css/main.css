@@ -4,8 +4,16 @@ body {
     font-size:14px;
 }
 
-#main {
-
+.jumbotron {
+    background:url('http://www.chriskhamken.com/images/travel/hawaii_wide.jpg') no-repeat;
+    background-size:cover;
+    background-position:-50px;
+}
+.jumbotron .container {
+    background-color:#333;
+    color:#EEE;
+    padding:50px;
+    background:rgba(0,0,0,0.5);
 }
 .nav {
     padding:0px;
@@ -26,9 +34,7 @@ body {
     color:#666;
     font-size:0.85em;
     letter-spacing:0.05em;
-    left:0px;
-    padding-top:15px;
-    position:fixed;
+    margin-top:100px;
     text-transform:uppercase;
     width:100%;
 }
