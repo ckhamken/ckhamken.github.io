@@ -1,16 +1,31 @@
 body {
     background-color:#333;
+    background-image:url('images/bg-grey.jpg');
+    border-top:8px solid #666;
     color:#EEE;
     font-size:14px;
 }
 
+#nav {
+}
+#nav h1 span {
+    font-size:0.7em;
+}
+#nav ul {
+    text-transform:uppercase;
+}
+#nav a:link, #nav a:visited {
+    color:#EEE;
+}
+
+
 .jumbotron {
-    background:url('http://www.chriskhamken.com/images/travel/hawaii_wide.jpg') no-repeat;
+    background:url('http://www.chriskhamken.com/images/travel/hawaii_full.jpg') no-repeat;
     background-size:cover;
-    background-position:center 30%;
+    background-position:center 45%;
 }
 .jumbotron .container {
-    background-color:#333;
+    background-color:#666;
     color:#EEE;
     padding:50px;
     background:rgba(0,0,0,0.5);
@@ -21,17 +36,28 @@ body {
 .jumbotron a:hover .container {
     background:rgba(0,0,0,0.7);
 }
+
+
 section {
     margin:50px auto;
 }
-
-section date {
+section h2 {
     border-bottom:1px dotted #EEE;
-    display:block;
-    margin-bottom: 15px;
-    padding-bottom:15px;
-    font-style:italic;
+    color:#EEE;
+    padding-bottom:10px;
 }
+section date {
+    color:#EEE;
+    font-style:italic;
+    float:right;
+    font-size:0.45em;
+    line-height:3em;
+}
+section a:hover {
+    text-decoration:none;
+}
+
+
 .nav {
     padding:0px;
     margin-top:0px;
@@ -41,11 +67,13 @@ section date {
         padding-top:0px;
         margin-top:0px;
     }
-    .nav li a {
+    .nav li a:link {
+        color:#666;
         padding:10px 15px;
         margin-top:0px;
     }
 #footer {
+    background-color:#333;
     border-top:1px solid #666;
     bottom:0px;
     color:#666;
