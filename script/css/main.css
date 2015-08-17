@@ -1,7 +1,7 @@
 body {
-    background-color:#333;
+    background-color:#222;
     background-image:url('images/bg-grey.jpg');
-    border-top:8px solid #666;
+    border-top:8px solid #333;
     color:#EEE;
     font-size:14px;
 }
@@ -74,7 +74,7 @@ section a:hover {
     }
 #footer {
     background-color:#333;
-    border-top:1px solid #666;
+    //border-top:1px solid #666;
     bottom:0px;
     color:#666;
     font-size:0.85em;
