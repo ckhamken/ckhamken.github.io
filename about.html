@@ -14,7 +14,7 @@
             padding:2em 0;
         }
         #top h1 {
-            font-size:1.2em;
+            font-size:1.5em;
             font-weight:600;
         }
         #top li {
@@ -23,7 +23,7 @@
         }
         #top a:link, a:visited {
             font-size:1.1em;
-            font-weight:400;
+            font-weight:500;
             padding:0;
         }
         .jumbotron h1 {
@@ -35,6 +35,20 @@
             font-size:1.8em;
             font-weight:500;
             color:#96a1ad;
+        #stats {
+            float:right;
+            background-color:#96a1ad;
+            padding:0;
+            calc(35% - 3.5rem)
+        }
+        #stats li {
+            display-style-type:none;
+            padding:1em;
+        }
+        #stats li span {
+            font-weight:500;
+            color:#111;
+        }
         #footer { 
             bottom:0;
             padding:2em 0;
@@ -43,7 +57,9 @@
             display:inline-block;
             margin-right:1.5em;
         }
-        #footer a {
+        #footer a:link, a:visited {
+            font-size:1.1em;
+            font-weight:500;
             padding:0;
         }
     </style>
@@ -56,7 +72,7 @@
     <div class="pull-left">
         <h1>Chris Khamken</span></h1>
     </div>
-    <div class="navbar pull-right">
+    <div class="pull-right">
         <ul class="nav">
             <li><a href="#">About</a></li>
             <li><a href="#">Photos</a></li>
@@ -85,16 +101,24 @@
     <p> I'm passionate about sharing my travels—mostly for myself—through meticulously crafted photosets. They're a great way for me to relive past experiences and share them with friends. I'm always thinking of ways to improve, rethink and redesign them for future travels.</p>
   </section>
 
+   <section id="stats">
+       <h2>STATS</h2>
+       <li><span>AGE</span> 33</li>
+       <li><span>HERITAGE</span> Laotian/Thai-American</li>
+       <li><span>EDUCATION</span> B.S. Auburn University, Mechanical Engineering</li>
+       <li><span>INTERESTS</span> travel, photography, design, coffee, sushi, modern architecture, prototyping, a clean workspace, cooking</li>
+       <li><span>MYERS-BRIGGS</span> INFP-A</li>
+       <li><span>ELSEWHERE</span> Instagram | LinkedIn | Facebook</li>
+   </section>
 </div>
 
         
 
-<div id="footer">
-<div class="container">
+<div id="footer" class="container">
     <div class="pull-left">
         [C] 2020 Chris Khamken
     </div>
-    <div class="navbar pull-right">
+    <div class="pull-right">
         <ul class="nav">
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">Instagram</a></li>
@@ -102,7 +126,7 @@
         </ul>
     </div>
 </div>
-</div>
+
 
 
 </body>
