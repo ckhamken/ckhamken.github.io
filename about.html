@@ -10,7 +10,13 @@
     <!-- <link rel="stylesheet" media="screen" href="script/css/main.css" /> -->
 
     <style type="text/css">
-        
+        html, body { height:100%; }
+        #content {
+            min-height:100%;
+            margin-bottom:-200px;
+            position:relative;
+        }
+        .clearfix { clear:both; }
         #top {
             padding:2em 0;
             margin:0 auto;
@@ -96,7 +102,7 @@
         #footer { 
             position:relative;
             bottom:0;
-            height:100px;
+            height:200px;
             padding:2em 0;
         }
         #footer li {
@@ -145,7 +151,7 @@
 </div>
 
 
-<div class="container">
+<div id="content" class="container">
 
   <div class="main" style="float:left; width:70%;">
       <p>Technology has often found ways to pull me into new hobbies. I got into photography out of a curiosity for DSLR cameras.</p>
