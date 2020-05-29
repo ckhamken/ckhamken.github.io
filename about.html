@@ -51,11 +51,17 @@
             font-weight:500;
             color:#96a1ad;
         }
+        .main {
+            font-size:1.2em;
+        }
         #stats {
             float:right;
-            background-color:#96a1ad;
-            padding:0 1em;
-            width: calc(35% - 3.5rem);
+            //background-color:#96a1ad;
+            padding:0;
+            width: calc(30% - 3.0rem);
+        }
+        #stats h3 {
+            margin-top:0;
         }
         #stats ul {
             padding:0;
@@ -68,6 +74,9 @@
         #stats li span {
             font-weight:bold;
             color:#111;
+            padding:0;
+            margin-right:0.5em;
+            margin-bottom:1em;
         }
         
         
@@ -116,7 +125,7 @@
 
 <div class="container">
 
-  <div style="float:left; width:65%;">
+  <div class="main" style="float:left; width:70%;">
     <p>Technology has often found ways to pull me into new hobbies. I got into photography out of a curiosity for DSLR cameras.</p>
     <p>Great products can do much more than solve problems, but delight and even change habits at times. Somewhere along the way I realized that design is integral to all of these experiences and it was something I wanted to focus on. I have a background in design and computer science and particularly enjoy taking projects from high-fidelity designs to interactive prototypes—and most recently, building ideas in iOS with Swift/SwiftUI. Take a look at some of my work.</p>
     <p>I originally started this website in 2012 as a way to share my portfolio of professional &amp; personal projects. Over time I became inspired to add more components so I added a photography section while other ideas never made it to light due to various life obligations and pure laziness. After realizing how outdated it had become, I committed to completely revamping it to what you see today. Everything you see on this site was designed and developed myself. Pages are generated using the static site generator Jekyll and hosted on Amazon S3 with CloudFront; a long way from the G4 Mac Mini I used to host this site with.</p>
@@ -132,8 +141,8 @@
            <li><span>HERITAGE</span> Laotian/Thai-American</li>
            <li><span>EDUCATION</span> B.S. Auburn University, Mechanical Engineering</li>
            <li><span>INTERESTS</span> travel, photography, design, coffee, sushi, modern architecture, prototyping, a clean workspace, cooking</li>
-           <li><span>MYERS-BRIGGS</span> INFP-A</li>
-           <li><span>ELSEWHERE</span> Instagram | LinkedIn | Facebook</li>
+           <li><span>MYERS-BRIGGS</span> <a href="https://www.16personalities.com/infp-personality">INFP-A</a></li>
+           <li><span>ELSEWHERE</span> <a href="">LinkedIn</a> | <a href="">Instagram</a> | <a href="">FB</a></li>
        </ul>
    </div>
 
