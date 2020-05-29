@@ -10,22 +10,37 @@
     <!-- <link rel="stylesheet" media="screen" href="script/css/main.css" /> -->
 
     <style type="text/css">
+        
         #top {
             padding:2em 0;
+            margin:0 auto;
+            position:relative;
+            top:0;
         }
         #top h1 {
-            font-size:1.5em;
+            font-size:2em;
             font-weight:600;
+            line-height:1em;
+        }
+        #top ul {
+            padding:0;
+            margin:0;
+            position:static;
+            bottom:0;
         }
         #top li {
             display:inline-block;
             margin-right:1.5em;
+            position:relative;
+            bottom:0;
         }
         #top a:link, a:visited {
             font-size:1.1em;
             font-weight:500;
             padding:0;
         }
+        
+        
         .jumbotron h1 {
             font-size:3.8em;
             font-weight:700;
@@ -35,29 +50,38 @@
             font-size:1.8em;
             font-weight:500;
             color:#96a1ad;
+        }
         #stats {
             float:right;
             background-color:#96a1ad;
+            padding:0 1em;
+            width: calc(35% - 3.5rem);
+        }
+        #stats ul {
             padding:0;
-            calc(35% - 3.5rem)
         }
         #stats li {
             list-style-type:none;
-            padding:1em;
+            padding:0.5em;
+            margin:0;
         }
         #stats li span {
             font-weight:bold;
             color:#111;
         }
+        
+        
         #footer { 
+            position:relative;
             bottom:0;
+            height:100px;
             padding:2em 0;
         }
         #footer li {
             display:inline-block;
             margin-right:1.5em;
         }
-        #footer a {
+        #footer a:link, a:visited {
             font-size:1.1em;
             font-weight:500;
             padding:0;
@@ -70,7 +94,7 @@
 
 <div id="top" class="container">
     <div class="pull-left">
-        <h1>Chris Khamken</span></h1>
+        <h1>Chris Khamken</h1>
     </div>
     <div class="pull-right">
         <ul class="nav">
@@ -95,7 +119,7 @@
   <div style="float:left;">
     <p>Technology has often found ways to pull me into new hobbies. I got into photography out of a curiosity for DSLR cameras.</p>
     <p>Great products can do much more than solve problems, but delight and even change habits at times. Somewhere along the way I realized that design is integral to all of these experiences and it was something I wanted to focus on. I have a background in design and computer science and particularly enjoy taking projects from high-fidelity designs to interactive prototypes—and most recently, building ideas in iOS with Swift/SwiftUI. Take a look at some of my work.</p>
-    <p>I originally started this website in 2012 as a way to share my portfolio of professional & personal projects. Over time I became inspired to add more components so I added a photography section while other ideas never made it to light due to various life obligations and pure laziness. After realizing how outdated it had become, I committed to completely revamping it to what you see today. Everything you see on this site was designed and developed myself. Pages are generated using the static site generator Jekyll and hosted on Amazon S3 with CloudFront; a long way from the G4 Mac Mini I used to host this site with.</p>
+    <p>I originally started this website in 2012 as a way to share my portfolio of professional &amp; personal projects. Over time I became inspired to add more components so I added a photography section while other ideas never made it to light due to various life obligations and pure laziness. After realizing how outdated it had become, I committed to completely revamping it to what you see today. Everything you see on this site was designed and developed myself. Pages are generated using the static site generator Jekyll and hosted on Amazon S3 with CloudFront; a long way from the G4 Mac Mini I used to host this site with.</p>
     <p>I don't publish too often here—only when I want to dive deep on a topic that interests me. That may be once a year or less. But when I write an article or craft a photoset, I spend a lot of time to make something useful.</p>
     <p>Photography is a hobby that I am slowly starting to rediscover the passion for after a few years hiatus. The convenience of highly capable cameras on our phones doesn't help.</p>
     <p> I'm passionate about sharing my travels—mostly for myself—through meticulously crafted photosets. They're a great way for me to relive past experiences and share them with friends. I'm always thinking of ways to improve, rethink and redesign them for future travels.</p>
@@ -113,6 +137,7 @@
        </ul>
    </div>
 
+    <div class="clearfix"></div>
 
 </div>
 
