@@ -78,6 +78,15 @@ body {
 }
 
 
+#main .row-fluid {
+    padding:1em 0;
+    margin:0;
+}
+#main a:active { margin:0; }
+#main a:active img { margin:0; }
+#main a:active img:active { margin:0; }
+
+
 #about {
     float:left;
     width:65%;
@@ -157,11 +166,6 @@ body {
     color:#000;
 }
 
-#main .photo-wall .row-fluid {
-    padding:1em 0;
-}
-#main a:active { margin:0; }
-#main a:active img { margin:0; }
 
 section {
     color:#111;
