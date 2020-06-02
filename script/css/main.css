@@ -46,7 +46,7 @@ a:active { margin:0; }
     font-size:1.1em;
     font-weight:bold;
     padding:0.8em;
-    color:#000;
+    //color:#000;
     //color:#428bca;
     //transition: border-bottom 0.2s;
 }
@@ -56,8 +56,8 @@ a:active { margin:0; }
 }
 #top a svg {
     margin-right:0.2em;
-    fill:#000;
-    //fill:#428bca;
+    //fill:#000;
+    fill:#428bca;
 }
 
 
