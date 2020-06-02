@@ -44,7 +44,7 @@ a:active { background-color:none; margin:0; }
     bottom:0;
     vertical-align:baseline;
 }
-#top a:link, a:visited, a:active {
+#top li a:link, a:visited, a:active {
     font-size:1.1em;
     font-weight:bold;
     padding:0.8em;
@@ -52,11 +52,11 @@ a:active { background-color:none; margin:0; }
     //color:#428bca;
     //transition: border-bottom 0.2s;
 }
-#top a:hover {
+#top li a:hover {
     border-bottom:0.1em solid #428bca;
     background:none;
 }
-#top a svg {
+#top li a svg {
     margin-right:0.2em;
     //fill:#000;
     fill:#428bca;
