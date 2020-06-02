@@ -81,9 +81,10 @@ body {
 #main .row-fluid {
     padding:0;
     margin:0;
+    vertical-align:middle;
 }
 #main a:active { margin:0; }
-#main img { display:block; margin:1em auto; vertical-align:baseline; }
+#main img { display:block; margin:1em auto; }
 
 #about {
     float:left;
