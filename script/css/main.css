@@ -85,7 +85,7 @@ body {
 #main a:active { margin:0; }
 #main a:active img { margin:0; }
 #main a:active img:active { margin:0; }
-
+#main img { display:block; margin:1em auto; }
 
 #about {
     float:left;
