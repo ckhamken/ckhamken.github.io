@@ -6,7 +6,7 @@ body {
 }
 .clearfix { clear:both; }
 .clearfooter { height:100px; clear:both; }
-a:active { margin:0; }
+
 
 
 #top {
@@ -160,7 +160,7 @@ a:active { margin:0; }
 #main .photo-wall .row-fluid {
     padding:1em 0;
 }
-
+#main a:active { margin:0; }
 
 section {
     color:#111;
