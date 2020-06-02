@@ -22,13 +22,16 @@ a:active { background-color:none; margin:0; }
 }
 #top a h1 {
     font-size:1.8em;
-    font-weight:600;
+    //font-weight:600;
     display:block;
     padding:0.5em 0 1em 0;
     margin:0;
     text-transform:uppercase;
     vertical-align:baseline;
-}
+    }
+    #top a:visited h1 { color:#000; underline:none; }
+    #top a:hover h1 { color:#000; underline:none; }
+    #top a:active h1 { color:#000; underline:none; }
 #top ul {
     padding:0;
     position:relative;
