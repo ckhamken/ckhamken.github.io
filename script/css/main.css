@@ -157,6 +157,9 @@ body {
     color:#000;
 }
 
+#main .photos img {
+    margin:1em;
+}
 
 
 section {
