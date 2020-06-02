@@ -157,8 +157,8 @@ body {
     color:#000;
 }
 
-#main .photos img {
-    margin:1em;
+#main .photos .span4 {
+    margin:1em 0;
 }
 
 
