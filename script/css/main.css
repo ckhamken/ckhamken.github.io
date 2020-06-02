@@ -6,7 +6,7 @@ body {
 }
 .clearfix { clear:both; }
 .clearfooter { height:100px; clear:both; }
-
+a:active { margin:0; }
 
 
 #top {
