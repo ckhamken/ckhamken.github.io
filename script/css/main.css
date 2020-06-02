@@ -6,6 +6,9 @@ body {
 }
 .clearfix { clear:both; }
 .clearfooter { height:100px; clear:both; }
+a:link { color:#428bca; }
+a:visited { color:#428bca; }
+a:hover { color:#000; }
 a:active { margin:0; }
 
 
