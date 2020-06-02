@@ -79,11 +79,11 @@ body {
 
 
 #main .row-fluid {
-    padding:1em 0;
+    padding:0;
     margin:0;
 }
 #main a:active { margin:0; }
-#main img { display:block;  }
+#main img { display:block; margin:1em auto; }
 
 #about {
     float:left;
