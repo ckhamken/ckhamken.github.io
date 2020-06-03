@@ -29,9 +29,9 @@ a:active { background-color:none; margin:0; }
     text-transform:uppercase;
     vertical-align:baseline;
     }
-    #top a:visited h1 { color:#000; underline:none; }
-    #top a:hover h1 { color:#000; underline:none; }
-    #top a:active h1 { color:#000; underline:none; }
+    #top a:visited h1 { color:#000; text-decoration:none; }
+    #top a:hover h1 { color:#000; text-decoration:none; }
+    #top a:active h1 { color:#000; text-decoration:none; }
 #top ul {
     padding:0;
     position:relative;
@@ -118,9 +118,7 @@ a:active { background-color:none; margin:0; }
     margin:0;
     padding:0;
 }
-#about a:hover {
-    color:#000;
-}
+#about a:hover { color:#000; }
 #stats {
     float:right;
     //background-color:#96a1ad;
