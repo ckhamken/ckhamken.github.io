@@ -140,10 +140,10 @@ a:active img { margin:0; padding:0; }
 #stats #bio-pic {
     clip-path: circle(48%);
     background-color:#ccc;
-    height:90%;
-    width:90%;
+    height:85%;
+    width:85%;
     padding:0;
-    margin:1.5em;
+    margin:1.5em auto;
 }
 #stats h3 {
     margin-top:0;
