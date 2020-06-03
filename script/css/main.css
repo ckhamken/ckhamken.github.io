@@ -25,6 +25,7 @@ a:active img { margin:0; padding:0; }
     width:100%;
 }
 #top a h1 {
+    color:#AAA;
     font-size:1.8em;
     font-weight:600;
     display:block;
@@ -64,6 +65,7 @@ a:active img { margin:0; padding:0; }
 }
 #top li a:active { color:#000; }
 #top li a:hover {
+    color:#000;
     border-bottom:0.1em solid #000;
     background:none;
 }
