@@ -71,7 +71,7 @@ a:active img { margin:0; padding:0; }
     }
     #top li a:hover {
         color:#428bca;
-        border-bottom:0.1em solid #000;
+        border-bottom:0.1em solid #428bca;
         background:none;
     }
     #top li a:active { color:#428bca; }
