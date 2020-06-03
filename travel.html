@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/ico" href="../images/favico.ico" />
-	<title>Chris Khamken | Travel</title>
+	<title>Travels &mdash; Chris K.com</title>
     <link rel="stylesheet" media="screen" href="script/css/bootstrap.css" />
     <link rel="stylesheet" media="screen" href="script/css/bootstrap31.css" />
     <link rel="stylesheet" media="screen" href="script/css/bootstrap-responsive.css" />
@@ -16,17 +16,17 @@
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
-	<style>
-		
-		#map {  top:0; bottom:0; width:100%; }
+
+    <style type="text/css">
+		#map {
+            top:0;
+            bottom:0;
+            height:40vw;
+            width:100%;
+        }
 	</style>
+
 </head>
-
-<style type="text/css">
-
-</style>
-
-
 <body>
 
 <div id="top">
@@ -46,25 +46,24 @@
 </div>
 
 
-<section>
+
 <div id="main" class="container">
 
 	<div class="row-fluid">
 		<div id="feature" class="span12">
 			<!-- <iframe id="worldmap" style="height:40vw;" frameBorder='0' src='https://a.tiles.mapbox.com/v4/ckhamken.13o48i1o/attribution,zoompan.html?access_token=pk.eyJ1IjoiY2toYW1rZW4iLCJhIjoiWEtoSjVkYyJ9._sSGfN7arooZ9JFWs5OdTA'></iframe> -->
 
-<div id='map' style="height:40vw;"></div>
-	<script>
-		mapboxgl.accessToken = 'pk.eyJ1IjoiY2toYW1rZW4iLCJhIjoiWEtoSjVkYyJ9._sSGfN7arooZ9JFWs5OdTA';
-		const map = new mapboxgl.Map({
-		container: 'map',
-		style: 'mapbox://styles/ckhamken/cjq9o9os5aek12rn0mvzqrkpf',
-		center: [10, 10],
-		zoom: 1.5
-		});
-	</script>
+        <div id='map'></div>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiY2toYW1rZW4iLCJhIjoiWEtoSjVkYyJ9._sSGfN7arooZ9JFWs5OdTA';
+            const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/ckhamken/cjq9o9os5aek12rn0mvzqrkpf',
+            center: [10, 10],
+            zoom: 1.5
+            });
+        </script>
 
-			<h1>Travel Journal</h1>
 		</div>
 	</div>
 
@@ -204,13 +203,22 @@
 
 </div>
 </div>
-</section>
 
 
 
-<section>
-	<div id="footer">[C] 2016 Chris Khamken</div>
-</section
+
+<div id="footer">
+<div class="container">
+    <ul class="clearfix">
+        <li>[C] 2020 Chris Khamken</li>
+        <div class="nav-pull-right">
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+        </div>
+    </ul>
+</div>
+</div>
 
 </body>
 </html>

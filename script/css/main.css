@@ -4,6 +4,7 @@ body {
     color:#111;
     font-size:14px;
 }
+.container { width:90%;}
 .clearfix { clear:both; }
 .clearfooter { height:100px; clear:both; }
 a:link { background-color:none; color:#428bca; }
