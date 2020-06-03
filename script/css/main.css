@@ -83,6 +83,22 @@ a:active img { margin:0; padding:0; }
     bottom:0;
     fill:#999;
     }
+    #top li a svg #about {
+        height:16;
+        width:18;
+    }
+    #top li a svg #photos {
+        height:;
+        width:;
+    }
+    #top li a svg #travels {
+        height:;
+        width:;
+    }
+    #top li a svg #work {
+        height:;
+        width:;
+    }
     #top li a:hover svg {
         fill:#428bca;
     }
