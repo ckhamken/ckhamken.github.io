@@ -78,6 +78,8 @@ a:active img { margin:0; padding:0; }
         background:none;
     }
     #top li a:active { color:#000; }
+    #top li a.current { color:#428bca; border-bottom:0.1em solid #428bca; }
+    #top li a.current svg { fill:#428bca; }
 #top li a svg {
     margin-right:0.2em;
     bottom:0;
