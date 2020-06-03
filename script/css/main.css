@@ -57,18 +57,22 @@ a:active img { margin:0; padding:0; }
     font-weight:bold;
     padding:0.8em;
     color:#428bca;
+    text-transform:uppercase;
     //transition: border-bottom 0.2s;
 }
 #top li a:active { color:#000; }
 #top li a:hover {
-    border-bottom:0.1em solid #428bca;
+    border-bottom:0.1em solid #000;
     background:none;
 }
 #top li a svg {
     margin-right:0.2em;
-    //fill:#000;
+    bottom:0;
     fill:#428bca;
-}
+    }
+    #top li a:hover svg {
+        fill:#000;
+    }
 
 
 
