@@ -113,14 +113,14 @@ a:active img { margin:0; padding:0; }
 
 #main .row-fluid {
     padding:0;
-    margin:0;
+    margin:0 auto;
     vertical-align:middle;
     }
-    #main .row-fluid .span4 { padding:0.3em; margin:0; vertical-align:middle; }
-    #main .row-fluid .span6 { padding:0.3em; margin:0; vertical-align:middle; }
-    #main .row-fluid .span12 { padding:0.3em; margin:0; vertical-align:middle; }
+    #main .row-fluid .span4 { padding:0.3em; margin:0 auto; vertical-align:middle; }
+    #main .row-fluid .span6 { padding:0.3em; margin:0 auto; vertical-align:middle; }
+    #main .row-fluid .span12 { padding:0.3em; margin:0 auto; vertical-align:middle; }
 #main a:active { margin:0; }
-#main img { display:block; margin:0.5em auto; }
+#main img { display:block; margin:0 auto; }
 
 #about {
     float:left;
