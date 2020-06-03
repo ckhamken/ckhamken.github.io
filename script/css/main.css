@@ -24,6 +24,7 @@ a:active img { margin:0; padding:0; }
     width:100%;
 }
 #top a h1 {
+    background:none;
     color:#999;
     font-size:1.8em;
     font-weight:600;
@@ -34,10 +35,10 @@ a:active img { margin:0; padding:0; }
     text-decoration:none;
     vertical-align:baseline;
     }
-    #top a:visited h1 { color:#999; text-decoration:none; }
-    #top a:hover h1 { color:#428bca; text-decoration:none; }
-    #top a:hover { color:#428bca; text-decoration:none; }
-    #top a:active h1 { color:#428bca; text-decoration:none; }
+    #top a:visited h1 { background:none; color:#999; text-decoration:none; }
+    #top a:hover h1 { background:none; color:#428bca; text-decoration:none; }
+    #top a:hover { background:none; color:#428bca; text-decoration:none; }
+    #top a:active h1 { background:none; color:#428bca; text-decoration:none; }
 #top ul {
     padding:0;
     position:relative;
@@ -55,6 +56,7 @@ a:active img { margin:0; padding:0; }
     vertical-align:baseline;
 }
 #top li a:link {
+    background:none;
     font-size:0.9em;
     font-weight:550;
     padding:0.8em;
@@ -63,6 +65,7 @@ a:active img { margin:0; padding:0; }
     //transition: border-bottom 0.2s;
     }
     #top li a:visited {
+        background:none;
         font-size:0.9em;
         font-weight:550;
         padding:0.8em;
@@ -71,12 +74,12 @@ a:active img { margin:0; padding:0; }
         //transition: border-bottom 0.2s;
     }
     #top li a:hover {
+        background:none;
         color:#428bca;
         border-bottom:0.1em solid #428bca;
-        background:none;
     }
-    #top li a:active { color:#428bca; }
-    #top li a.current { color:#428bca; border-bottom:0.1em solid #428bca; }
+    #top li a:active { background:none; color:#428bca; }
+    #top li a.current { background:none; color:#428bca; border-bottom:0.1em solid #428bca; }
     #top li a.current svg { fill:#428bca; }
 #top li a svg {
     margin-right:0.2em;
