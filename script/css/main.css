@@ -54,7 +54,7 @@ a:active img { margin:0; padding:0; }
     vertical-align:baseline;
 }
 #top li a:link {
-    font-size:1.1em;
+    font-size:0.9em;
     font-weight:550;
     padding:0.8em;
     color:#999;
@@ -62,7 +62,7 @@ a:active img { margin:0; padding:0; }
     //transition: border-bottom 0.2s;
     }
     #top li a:visited {
-        font-size:1.1em;
+        font-size:0.9em;
         font-weight:550;
         padding:0.8em;
         color:#999;
