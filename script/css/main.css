@@ -230,7 +230,7 @@ p.subtitle { font-size:larger; font-weight:500; }
     position:relative;
     z-index:0;
     text-align:center;
-    font-size:1.5vw;
+    font-size:1.3vw;
     max-height:260px;
     }
     .posts a { padding:0; margin:0; }
