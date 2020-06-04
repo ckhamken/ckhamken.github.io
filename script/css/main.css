@@ -4,7 +4,7 @@ body {
     color:#111;
     font-size:14px;
 }
-.container { width:90%;}
+.container { width:85%; max-width:1050px; }
 .clearfix { clear:both; }
 .clearfooter { height:100px; clear:both; }
 a:link { background-color:none; color:#428bca; }
@@ -12,6 +12,8 @@ a:visited { background-color:none; color:#428bca; }
 a:hover { background-color:none; color:#000; }
 a:active { background-color:none; margin:0; padding:0; }
 a:active img { margin:0; padding:0; }
+h2.title { padding:0; margin-top:0; }
+p.subtitle { font-size:larger; font-weight:500; }
 
 
 #top {
@@ -116,11 +118,24 @@ a:active img { margin:0; padding:0; }
     margin:0;
     vertical-align:middle;
     }
-    #main .row-fluid .span4 { padding:0.3em; vertical-align:middle; }
-    #main .row-fluid .span6 { padding:0.3em; vertical-align:middle; }
-    #main .row-fluid .span12 { padding:0.3em; vertical-align:middle; }
+
 #main a:active { margin:0; }
 #main img { display:block; margin:0 auto; }
+
+
+#main .photowall, .span4, .span6, .span12 {
+    padding:0;
+    margin-top:1.5em;
+    vertical-align:middle; 
+}
+#main .photowall img {
+    position:absolute;
+    display:block;
+    padding:0;
+    margin:0;
+    width:100%;
+}
+
 
 #about {
     float:left;
@@ -204,7 +219,6 @@ a:active img { margin:0; padding:0; }
 
 
 
-
 .posts .span6 {
     //background-color:#ccc;
     border-radius:1.5em;
@@ -212,11 +226,12 @@ a:active img { margin:0; padding:0; }
     height:20vw;
     overflow:hidden;
     padding:0;
-    margin-top:1.5em;
+    margin-top:1em;
     position:relative;
     z-index:0;
     text-align:center;
     font-size:1.5vw;
+    max-height:260px;
     }
     .posts a { padding:0; margin:0; }
     .posts a img {
@@ -224,7 +239,8 @@ a:active img { margin:0; padding:0; }
         z-index:0;
         padding:0;
         margin:0 auto;
-        width:100%;
+        height:100%;
+        //width:100%;
     }
     .posts a .title {
         background-color:rgba(0,0,0,0.5);
