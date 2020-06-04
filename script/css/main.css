@@ -218,14 +218,15 @@ a:active img { margin:0; padding:0; }
     text-align:center;
     font-size:1.5vw;
     }
-    .posts img {
-        position:relative;
+    .posts a { padding:0; margin:0; }
+    .posts a img {
+        position:absolute;
         z-index:0;
         padding:0;
-        margin:0;
+        margin:0 auto;
         width:100%;
     }
-    .posts .title {
+    .posts a .title {
         background-color:rgba(0,0,0,0.5);
         display:block;
         width:100%;
@@ -233,13 +234,13 @@ a:active img { margin:0; padding:0; }
         color:#FFF;
         padding:0.5em;
         position:absolute;
-        bottom:0.5em;
+        bottom:0.3em;
         z-index:2;
         visibility:visible;
         opacity:1;
         transition: visibility 0.5s, opacity 0.2s linear;
     }
-    .posts h2 {
+    .posts a .title h2 {
         font-size:larger;
         font-weight:bolder;
         letter-spacing:0.05em;
@@ -248,7 +249,7 @@ a:active img { margin:0; padding:0; }
         text-align:center;
         width:100%;
     }
-    .posts .subtitle {
+    .posts a .title .subtitle {
         font-size:smaller;
         letter-spacing:0.05em;
         display:block;
@@ -261,6 +262,8 @@ a:active img { margin:0; padding:0; }
         visibility:hidden;
         opacity:0;
     }
+
+
 
 section {
     color:#111;
