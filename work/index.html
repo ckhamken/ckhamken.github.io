@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Work Gear &mdash; Chris K.com</title>
+    <meta name="description" content="A test site hosted from Github.">
+    <link rel="stylesheet" media="screen" href="../script/css/bootstrap.css" />
+    <link rel="stylesheet" media="screen" href="../script/css/bootstrap31.css" />
+    <link rel="stylesheet" media="screen" href="../script/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" media="screen" href="../script/css/main.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script rel="text/javascript" src="../script/js/bootstrap31.js"></script>
+	<script type="text/javascript" src="../script/js/jquery.easing-1.3.pack.js"></script> 
+	<script type="text/javascript" src="../script/js/jquery.mousewheel-3.0.4.pack.js"></script> 
+	<script type="text/javascript" src="../script/js/jquery.fancybox-1.3.4.js"></script> 
+	<link rel="stylesheet" type="text/css" href="../script/js/jquery.fancybox-1.3.4.css" media="screen" />     
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a.thumbnail").fancybox({
+                'titlePosition': 'over',
+                'overlayColor': '#000',
+                'overlayOpacity': '0',
+            });
+
+            $("a[rel=group]").fancybox({
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'titlePosition': 'over',
+                'titleFormat': function(title, currentArray, currentIndex, currentOpts) {return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; || &nbsp; ' + title : '') + '</span>';}
+            });
+        });
+    </script>
+    
+</head>
+<body>
+
+
+<div id="top">
+<div class="container">
+    <div class="pull-left">
+        <a href="../"><h1>Chris Khamken</h1></a>
+    </div>
+    <div class="pull-right">
+        <ul class="nav">
+            <li><a href="../about/"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="16" viewBox="2 3 18 18"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path></svg> About</a></li>
+            <li><a href="../photos/"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="26" viewBox="0 0 450 450"><path d="M490.67,106.67H365.18l-26.1-52.21A21.34,21.34,0,0,0,320,42.67H192a21.34,21.34,0,0,0-19.08,11.79l-26.1,52.21H21.33A21.33,21.33,0,0,0,0,128V448a21.33,21.33,0,0,0,21.33,21.33H490.67A21.33,21.33,0,0,0,512,448V128A21.33,21.33,0,0,0,490.67,106.67ZM256,384A106.67,106.67,0,1,1,362.67,277.33,106.79,106.79,0,0,1,256,384Zm64-106.67a64,64,0,1,1-64-64A64.07,64.07,0,0,1,320,277.33Z"></path></svg> Photos</a></li>
+            <li><a href="../travel/"><svg xmlns="http://www.w3.org/2000/svg" height="13" width="23" viewBox="0 0 21 13"><path d="M12.3639.21875l8.6599 11.50005H.25l5.72508-7.50005 1.07263 1.42711-.00082.00062.49459.65634.11015.14656 2.16498 2.87265 1.27779-.96291L8.65531 5.1223 12.3639.21875z"></path></svg> Travels</a></li>
+            <li><a class="current" href="../work/"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="15" viewBox="2 2 21 20"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"></path></svg> Work</a></li>
+	</ul>
+    </div>
+</div>
+</div>
+
+<div class="container">
+    <h2 class="title">Work</h2>
+    <p class="subtitle">I'm a mechanical design engineer currently in Atlanta, GA.</p>
+</div>
+
+
+<div id="main" class="container gear">
+
+    <div class="row">
+      <div class="span2"><img src="#"></div>
+      <div class="span6 description">
+          <p>Injection Pen Assembly and Test</p>
+          <p class="comment">description</a>
+          <p><a href="#">Link</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2"><img src="#"></div>
+      <div class="span6 description">
+          <p>Dialysis Filter Inspection</p>
+          <p class="comment">description</a>
+          <p><a href="#">Link</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2"><img src="#"></div>
+      <div class="span6 description">
+          <p>Vial Tray Auto Unload</p>
+          <p class="comment">description</a>
+          <p><a href="#">Link</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2"><img src="#"></div>
+      <div class="span6 description">
+          <p>Armature Press and Validation</p>
+          <p class="comment">description</a>
+          <p><a href="#">Link</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2"><img src="#"></div>
+      <div class="span6 description">
+          <p>EV Power Distribution Module Assembly and Testing</p>
+          <p class="comment">description</a>
+          <p><a href="#">Link</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2"><img src="#"></div>
+      <div class="span6 description">
+          <p>EV Drive Unit Robotic Assembly</p>
+          <p class="comment">description</a>
+          <p><a href="#">Link</a></p>
+      </div>
+    </div>
+
+
+
+
+
+</div>
+
+       
+
+<div id="footer">
+<div class="container">
+    <ul class="clearfix">
+        <li>[C] 2020 Chris Khamken</li>
+        <div class="nav-pull-right">
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+        </div>
+    </ul>
+</div>
+</div>
+
+
+</body>
