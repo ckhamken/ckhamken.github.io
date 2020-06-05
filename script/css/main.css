@@ -119,8 +119,11 @@ p.subtitle { font-size:larger; font-weight:500; }
     vertical-align:middle;
     }
 
-#main a:active { margin:0; }
+
+#main a:active { margin:0; padding:0; }
 #main img { display:block; margin:0 auto; }
+#main .title { font-size:x-large; font-weight:bolder; }
+#main .title-comment { font-size:1.5em; color:#96a1ad; margin-bottom:1.5em; }
 
 
 #main .photowall, .span4, .span6, .span12 {
@@ -172,7 +175,7 @@ p.subtitle { font-size:larger; font-weight:500; }
     font-weight:normal;
     font-size:smaller;
 }
-.gear a:active { margin:0; }
+
 
 
 
