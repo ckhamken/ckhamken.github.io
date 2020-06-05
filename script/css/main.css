@@ -161,8 +161,11 @@ p.subtitle { font-size:larger; font-weight:500; }
 .gear .description {
 	font-weight:bold;
 }
+.gear .description .comment {
+	font-weight:bold;
+    font-size:smaller;
+}
 .gear .description a {
-    display:block;
     font-weight:normal;
     font-size:smaller;
 }
