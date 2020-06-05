@@ -138,7 +138,7 @@ p.subtitle { font-size:larger; font-weight:500; }
 .gear .row {
 	border-radius:10px;
 	border:1px solid #CCC;
-	width:400px;
+	width:450px;
     padding:1em;
 	margin:1em auto;
 	vertical-align:middle;
@@ -160,10 +160,13 @@ p.subtitle { font-size:larger; font-weight:500; }
 }
 .gear .description {
 	font-weight:bold;
+    margin-top:0;
 }
 .gear .description .comment {
-	font-weight:bold;
+	font-weight:normal;
     font-size:smaller;
+    letter-spacing:0.03em;
+    color:#555;
 }
 .gear .description a {
     font-weight:normal;
