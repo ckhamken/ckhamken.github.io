@@ -152,9 +152,8 @@ p.subtitle { font-size:larger; font-weight:500; }
     height:100px;
 	margin:0;
 }
-.gear .span6 { width:100%; }
+.gear .span6 { border:1px solid #DDD; width:auto; }
 .gear .description {
-    border:1px solid #DDD;
 	font-weight:bold;
 }
 .gear .description a {
