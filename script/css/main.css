@@ -126,7 +126,7 @@ p.subtitle { font-size:larger; font-weight:500; }
 #main .photowall, .span4, .span6, .span12 {
     padding:0;
     margin-top:1.5em;
-    vertical-align:middle; 
+    vertical-align:middle;
 }
 #main .photowall img {
     position:absolute;
@@ -231,7 +231,7 @@ p.subtitle { font-size:larger; font-weight:500; }
     z-index:0;
     text-align:center;
     font-size:1.3vw;
-    max-height:260px;
+    max-height:300px;
     }
     .posts a { padding:0; margin:0; }
     .posts a img {
