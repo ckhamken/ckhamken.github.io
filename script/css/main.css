@@ -135,8 +135,9 @@ p.subtitle { font-size:larger; font-weight:500; }
     margin:0;
     width:100%;
 }
-.gear .row { border-radius:10px; border:1px solid #CCC; height:100px; }
+.gear .row { border-radius:10px; border:1px solid #DDD; height:100px; width:400px; margin:1em auto; vertical-align:middle; }
 .gear .span2 { width:100px; text-align:center; }
+.gear .span2 img { width:100%; }
 .gear .description { font-weight:bold; }
 
 
