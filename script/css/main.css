@@ -218,7 +218,13 @@ p.subtitle { font-size:larger; font-weight:500; }
 }
 
 
-
+#map {
+	top:0;
+	bottom:0;
+	height:35vw;
+	max-height:450px;
+	width:100%;
+    }
 .posts .span6 {
     //background-color:#ccc;
     border-radius:1.5em;
