@@ -152,7 +152,8 @@ p.subtitle { font-size:larger; font-weight:500; }
     height:100px;
 }
 .gear .description {
-    font-weight:bold;
+    border:1px solid #DDD;
+	font-weight:bold;
 }
 .gear .description a {
     display:block;
