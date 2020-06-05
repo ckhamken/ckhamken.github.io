@@ -139,6 +139,9 @@ p.subtitle { font-size:larger; font-weight:500; }
 .gear .span2 { width:100px; text-align:center; }
 .gear .span2 img { width:100%; }
 .gear .description { font-weight:bold; }
+.gear .description a { display:block; font-weight:normal; font-size:smaller; }
+
+
 
 
 #about {
