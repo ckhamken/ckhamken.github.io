@@ -14,7 +14,8 @@ a:active { background-color:none; margin:0; padding:0; }
 a:active img { margin:0; padding:0; }
 h2.title { padding:0; margin-top:0; }
 p.subtitle { font-size:larger; font-weight:500; }
-
+.title { font-size:larger; font-weight:bolder; }
+.title-comment { font-size:x-large; font-weight:bold; color:#96a1ad; margin-bottom:1.5em; }
 
 #top {
     //background-color:#eee;
@@ -122,8 +123,7 @@ p.subtitle { font-size:larger; font-weight:500; }
 
 #main a:active { margin:0; padding:0; }
 #main img { display:block; margin:0 auto; }
-#main .title { font-size:larger; font-weight:bolder; }
-#main .title-comment { font-size:x-large; font-weight:bold; color:#96a1ad; margin-bottom:1.5em; }
+
 
 
 #main .photowall, .span4, .span6, .span12 {
