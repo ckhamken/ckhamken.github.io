@@ -14,6 +14,34 @@ a:active { background-color:none; margin:0; padding:0; }
 a:active img { margin:0; padding:0; }
 h2.title { font-size:xx-large; font-weight:bolder; padding:0; margin-top:0; }
 p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5em; }
+a#connect, a#connect:visited { 
+    background-color:#428bca;
+    border:1px solid #CCC; 
+    border-radius:20px; 
+    color:#FFF;
+    display:block; 
+    font-weight:bold;
+    padding:1em; 
+    margin:inherit;
+    text-align:center; 
+    text-transform:uppercase;
+    text-decoration:none;
+}
+a#connect:hover { 
+    background-color:#FFF;
+    border:1px solid #CCC; 
+    border-radius:20px; 
+    color:#428bca;
+    display:block; 
+    font-weight:bold;
+    padding:1em; 
+    margin:inherit;
+    text-align:center; 
+    text-transform:uppercase;
+    text-decoration:none;
+}
+a#connect:active { padding:1em; margin:inherit; }
+
 
 
 #top {
@@ -128,8 +156,9 @@ p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5e
 #main .photowall, .span4, .span6, .span12 {
     padding:0;
     margin-top:1.5em;
-    vertical-align:middle;
-}
+    vertical-align:middle;    
+    }
+    #main .photowall, .span4:hover, .span6:hover, .span12:hover { box-shadow: 0.5em 0.5em 1em 1em #CCC; }
 #main .photowall img {
     position:absolute;
     display:block;
@@ -137,10 +166,12 @@ p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5e
     margin:0;
     width:100%;
 }
+
+
 .gear .row {
 	border-radius:10px;
 	border:1px solid #CCC;
-	width:450px;
+	width:500px;
     padding:1em;
 	margin:1em auto;
 	vertical-align:middle;
@@ -159,6 +190,7 @@ p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5e
     border-left:1px solid #CCC;
     padding-left:1em;
     width:auto;
+    box-shadow:none;
 }
 .gear .description {
 	font-weight:bold;
@@ -174,7 +206,6 @@ p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5e
     font-weight:normal;
     font-size:smaller;
 }
-
 
 
 
@@ -260,6 +291,8 @@ p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5e
 }
 
 
+
+
 #map {
 	top:0;
 	bottom:0;
@@ -281,6 +314,7 @@ p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5e
     font-size:1.3vw;
     max-height:300px;
     }
+    .posts .span6:hover { box-shadow: 0.5em 0.5em 1em 1em #CCC; }
     .posts a { padding:0; margin:0; }
     .posts a img {
         position:absolute;
@@ -329,6 +363,50 @@ p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5e
 
 
 
+.work .span4 {
+	border-radius:10px;
+	border:1px solid #BBB;
+	height:300px;
+    padding:0.5em;
+	margin:0.5em 1em;
+	vertical-align:middle;
+    overflow:hidden;
+}
+.work .span4:hover { box-shadow: 0.05em 0.05em 1em 1em #CCC; }
+.work .row:first-child {
+    height:200px;
+    text-align:center;
+    overflow:hidden;
+   }
+.work .row img {
+    border:0;
+    height:200px;
+	margin:0;
+    padding:0;
+    width:auto;
+}
+.work .row {
+    padding-left:1em;
+    width:auto;
+}
+.work .description {
+    border-top:1px solid #BBB;
+	font-weight:bold;
+    line-height:1em;
+    margin:0 auto ;
+    padding:0.5em;
+    word-wrap:normal;
+    text-align:center;
+    width:95%;
+}
+.work .description .comment {
+	font-weight:normal;
+    letter-spacing:0.03em;
+    color:#555;
+}
+
+
+
 section {
     color:#111;
     margin:50px auto;
@@ -371,30 +449,29 @@ section a:hover {
     }
 
 #footer {
-    background-color:#eee;
+    //background-color:#eee;
     color:#111;
     font-size:0.85em;
     letter-spacing:0.1em;
     margin-top:100px;
-    margin-bottom:0;
     padding:0;
     text-transform:uppercase;
     vertical-align:baseline;
     width:100%;
 }
+#footer .container { border-top:1px solid #CCC; }
 #footer ul, ol { 
-    float:left;
-    display:inline-block;
     list-style:none;
     padding:0;
     margin;0;
-    width:100%; }
+    width:100%;
+}
 #footer ul li {
     font-size:inherit;
     float:left;
     display:block;
     padding:2em 0;
-    margin:0 2em 0 0;
+    margin:0 2em 0 -3em;
 }
 #footer .nav-pull-right { float:right; }
 #footer .nav-pull-right li {
@@ -408,6 +485,7 @@ section a:hover {
     font-size:inherit;
     text-decoration:nonw;
     padding:1em;
+    margin:0;
 }
 #footer ul li a:hover {
     color:#000;
