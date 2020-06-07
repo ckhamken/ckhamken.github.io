@@ -14,6 +14,7 @@ a:active { background-color:none; margin:0; padding:0; }
 a:active img { margin:0; padding:0; }
 h2.title { font-size:xx-large; font-weight:bolder; padding:0; margin-top:0; }
 p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5em; }
+p.note { color:#666; margin:0; padding:0; margin:2em auto; box-shadow:none; }
 a#connect, a#connect:visited { 
     background-color:#428bca;
     border:1px solid #CCC; 
@@ -55,7 +56,7 @@ a#connect:active { padding:1em; margin:inherit; }
 }
 #top a h1 {
     background:none;
-    color:#999;
+    color:#428bca;
     font-size:1.8em;
     font-weight:600;
     display:block;
@@ -65,10 +66,10 @@ a#connect:active { padding:1em; margin:inherit; }
     text-decoration:none;
     vertical-align:baseline;
     }
-    #top a:visited h1 { background:none; color:#999; text-decoration:none; }
-    #top a:hover h1 { background:none; color:#428bca; text-decoration:none; }
-    #top a:hover { background:none; color:#428bca; text-decoration:none; }
-    #top a:active h1 { background:none; color:#428bca; text-decoration:none; }
+    #top a:visited h1 { background:none; color:#428bca; text-decoration:none; }
+    #top a:hover h1 { background:none; color:#999; text-decoration:none; }
+    #top a:hover { background:none; color:#999; text-decoration:none; }
+    #top a:active h1 { background:none; color:#999; text-decoration:none; }
 #top ul {
     padding:0;
     position:relative;
@@ -214,16 +215,6 @@ a#connect:active { padding:1em; margin:inherit; }
     float:left;
     width:65%;
     font-size:1.2em;
-    margin-top:2em;
-}
-#about h1 {
-    font-size:3.8em;
-    font-weight:bolder;
-}
-#about h3 {
-    font-size:1.5em;
-    color:#96a1ad;
-    margin-bottom:1.5em;
 }
 #about p { margin-bottom:1em; }
 #about a:link, a:visited, a:active {
@@ -238,7 +229,6 @@ a#connect:active { padding:1em; margin:inherit; }
 #about a:hover { color:#000; }
 #stats {
     float:right;
-    //background-color:#96a1ad;
     font-size:1.2em;
     padding:0;
     margin-left:3.5rem;
@@ -313,8 +303,9 @@ a#connect:active { padding:1em; margin:inherit; }
     text-align:center;
     font-size:1.3vw;
     max-height:300px;
+    transition: box-shadow 0.2s, opacity .5s linear;
     }
-    .posts .span6:hover { box-shadow: 0.5em 0.5em 1em 1em #CCC; }
+    .posts .span6:hover { box-shadow: 0.3em 0.3em 1em 1em #CCC; }
     .posts a { padding:0; margin:0; }
     .posts a img {
         position:absolute;
@@ -371,6 +362,7 @@ a#connect:active { padding:1em; margin:inherit; }
 	margin:0.5em 1em;
 	vertical-align:middle;
     overflow:hidden;
+    transition: box-shadow 0.2s, opacity .5s linear;
 }
 .work .span4:hover { box-shadow: 0.05em 0.05em 1em 1em #CCC; }
 .work .row:first-child {
@@ -394,7 +386,7 @@ a#connect:active { padding:1em; margin:inherit; }
 	font-weight:bold;
     line-height:1em;
     margin:0 auto ;
-    padding:0.5em;
+    padding:1em;
     word-wrap:normal;
     text-align:center;
     width:95%;
