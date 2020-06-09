@@ -290,6 +290,7 @@ a#connect:active { padding:1em; margin:inherit; }
 	max-height:450px;
 	width:100%;
     }
+.posts { width:95%; }
 .posts .span6 {
     //background-color:#ccc;
     border-radius:1.5em;
