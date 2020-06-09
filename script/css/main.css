@@ -14,7 +14,7 @@ a:active { background-color:none; margin:0; padding:0; }
 a:active img { margin:0; padding:0; }
 h2.title { font-size:xx-large; font-weight:bolder; padding:0; margin-top:0; }
 p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5em; }
-p.note { color:#666; margin:0; padding:0; margin:2em auto; box-shadow:none; }
+p.note { color:#666; font-size:smaller; margin:0; padding:0; margin:2em auto; box-shadow:none; }
 a#connect, a#connect:visited { 
     background-color:#428bca;
     border:1px solid #CCC; 
