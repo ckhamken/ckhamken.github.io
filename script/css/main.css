@@ -7,6 +7,7 @@ body {
 .container { width:85%; max-width:1050px; }
 .clearfix { clear:both; }
 .clearfooter { height:100px; clear:both; }
+img { background-color:#EEE; }
 a:link { background-color:none; color:#428bca; }
 a:visited { background-color:none; color:#428bca; }
 a:hover { background-color:none; color:#000; }
