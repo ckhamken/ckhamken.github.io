@@ -16,6 +16,17 @@ a:active img { margin:0; padding:0; }
 h2.title { font-size:xx-large; font-weight:bolder; padding:0; margin-top:0; }
 p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5em; }
 p.note { color:#666; font-size:smaller; margin:0; padding:0; margin:2em auto; box-shadow:none; }
+p.quote { 
+    border-left:1em solid #DDD;
+    font-style:italic;
+    padding:1em;
+    padding-left:2em;
+    margin:1em;
+}
+p.quote .source { 
+    display:block;
+    margin-top:1em; 
+}
 a#connect, a#connect:visited { 
     background-color:#428bca;
     border:1px solid #CCC; 
@@ -43,9 +54,17 @@ a#connect:hover {
     text-decoration:none;
 }
 a#connect:active { padding:1em; margin:inherit; }
+.breadcrumb {
+    background:none;
+    border-top:1px dotted #AAA;
+    padding:1em 0;
+    margin-bottom:1em;
+}
 
 
 
+
+/* header navigation */
 #top {
     //background-color:#eee;
     color:#999;
@@ -124,8 +143,7 @@ a#connect:active { padding:1em; margin:inherit; }
 
 
 
-.jumbotron {
-    background:url('http://www.chriskhamken.com/images/travel/hawaii_full.jpg') no-repeat;
+.jumbotron { background:url('http://www.chriskhamken.com/images/travel/hawaii_full.jpg') no-repeat;
     background-size:cover;
     background-position:center 45%;
 }
@@ -148,70 +166,11 @@ a#connect:active { padding:1em; margin:inherit; }
     margin:0;
     vertical-align:middle;
     }
-
-
 #main a:active { margin:0; padding:0; }
 #main img { display:block; margin:0 auto; }
 
 
-
-#main .photowall, .span4, .span6, .span12 {
-    padding:0;
-    margin-top:1.5em;
-    vertical-align:middle;    
-    }
-    #main .photowall, .span4:hover, .span6:hover, .span12:hover { box-shadow: 0.5em 0.5em 1em 1em #CCC; }
-#main .photowall img {
-    position:absolute;
-    display:block;
-    padding:0;
-    margin:0;
-    width:100%;
-}
-
-
-.gear .row {
-	border-radius:10px;
-	border:1px solid #CCC;
-	width:500px;
-    padding:1em;
-	margin:1em auto;
-	vertical-align:middle;
-    overflow:hidden;
-}
-.gear .span2 {
-    width:100px;
-    text-align:center;
-   }
-.gear .span2 img {
-    height:80px;
-	margin:0;
-    padding:0;
-}
-.gear .span6 {
-    border-left:1px solid #CCC;
-    padding-left:1em;
-    width:auto;
-    box-shadow:none;
-}
-.gear .description {
-	font-weight:bold;
-    margin-top:0;
-}
-.gear .description .comment {
-	font-weight:normal;
-    font-size:smaller;
-    letter-spacing:0.03em;
-    color:#555;
-}
-.gear .description a {
-    font-weight:normal;
-    font-size:smaller;
-}
-
-
-
-
+/* about */
 #about {
     float:left;
     width:65%;
@@ -283,7 +242,62 @@ a#connect:active { padding:1em; margin:inherit; }
 
 
 
+/* photography */
+#main .photowall, .span4, .span6, .span12 {
+    padding:0;
+    margin-top:1.5em;
+    vertical-align:middle;    
+    }
+    #main .photowall, .span4:hover, .span6:hover, .span12:hover { box-shadow: 0.5em 0.5em 1em 1em #CCC; }
+#main .photowall img {
+    position:absolute;
+    display:block;
+    padding:0;
+    margin:0;
+    width:100%;
+}
+.gear .row {
+	border-radius:10px;
+	border:1px solid #CCC;
+	width:500px;
+    padding:1em;
+	margin:1em auto;
+	vertical-align:middle;
+    overflow:hidden;
+}
+.gear .span2 {
+    width:100px;
+    text-align:center;
+   }
+.gear .span2 img {
+    height:80px;
+	margin:0;
+    padding:0;
+}
+.gear .span6 {
+    border-left:1px solid #CCC;
+    padding-left:1em;
+    width:auto;
+    box-shadow:none;
+}
+.gear .description {
+	font-weight:bold;
+    margin-top:0;
+}
+.gear .description .comment {
+	font-weight:normal;
+    font-size:smaller;
+    letter-spacing:0.03em;
+    color:#555;
+}
+.gear .description a {
+    font-weight:normal;
+    font-size:smaller;
+}
 
+
+
+/* travel */
 #map {
 	top:0;
 	bottom:0;
@@ -356,6 +370,8 @@ a#connect:active { padding:1em; margin:inherit; }
 
 
 
+
+/* work */
 .work .span4 {
 	border-radius:10px;
 	border:1px solid #BBB;
@@ -368,6 +384,7 @@ a#connect:active { padding:1em; margin:inherit; }
 }
 .work .span4:hover { box-shadow: 0.05em 0.05em 1em 1em #CCC; }
 .work .span6:hover { box-shadow:none; }
+.work .section { border-bottom:1px dotted #AAA; margin-top:2em; }
 .work .row:first-child {
     height:200px;
     text-align:center;
@@ -459,6 +476,9 @@ section a:hover {
         margin-top:0px;
     }
 
+
+
+/* footer */
 #footer {
     //background-color:#eee;
     color:#111;
