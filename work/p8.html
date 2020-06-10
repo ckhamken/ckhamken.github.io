@@ -34,7 +34,17 @@
             });
         });
     </script>
-    
+
+	<style type="text/css">
+        .breadcrumb {
+            background:none;
+            border-top:1px dotted #AAA;
+            padding:1em 0;
+            margin-bottom:1em;
+        }
+        .work .section { border-bottom:2px dotted #AAA; margin-top:1em; }
+    </style>
+
 </head>
 <body>
 
@@ -55,14 +65,17 @@
 </div>
 </div>
 
-
+<div class="container breadcrumb">
+	<div style="float:left"><a href="#">&leftarrow; Back</a></div>	
+	<div style="float:right"><a href="#">Next &rightarrow;</a></div>
+</div>
 
 <div id="main" class="container work">
 
 	<h2 class="title">Automated Stamp Bending Cell</h2>
 
 	<h4>Project role and responsibilities</h4>
-	<b>Mechanical Engineer</b>
+
 	<ul>
 		<li>Blank feeder design</li>
 		<li>Transfer gripper design</li>
@@ -74,13 +87,22 @@
 	<p>Cycle time: 1.55 seconds</p>
     <p>Description</p>
 
+
     <div class="row-fluid">
         <div class="span6"><a rel="group" href="#" title="Overview"><img src="#"></a></div>
         <div class="span6"><a rel="group" href="#" title="Overview"><img src="#"></a></div>
     </div>
     <div class="row-fluid">
         <div class="span6"><div class="vid_container"><iframe src="https://player.vimeo.com/video/48632053" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div></div>
+    </div>
+
+    <h4 class="section">Flipper Version 2.0</h4>
+    <p>During the bending process, the product needs to be reoriented to properly complete the remaining bend sequences. At an intermediate position between the transfer from one press to the next, a small module performs this flip operation. This is shown in the above video during timestamp 1:35 &mdash; 1:50. Version 1.0 is essentially a pre-existing design used on previously built bend lines, thus is a proven and reliable solution. However given the amount of integrated hardware being used to secure the product before rotating, there was  a lot of moment of inertia being exerted during the rotational motion. Although a proven design, it could be further improved.</p>
+    <p>For Version 2.0, I started over with the basic required motions (clamp, rotate) and then worked to achieve those motions in the most simplistic way possible. This mindset resulted in a final redesign that was much lighter in all regards: amount of hardware used, rotational moment of inertia, footprint, and maintenance efforts. Additionally with the quicker motion, the transfer arms were no longer waiting for the flip to complete before proceeding; now the flip completes before the press cycle completes thus allowing for an increased velocity of the transfer arms (to a limit of course). Although an additional motion was added to the sequence (retracting part rest), it still kept the overall design simple and elegant.</p>
+
+    <div class="row-fluid">
         <div class="span6"><div class="vid_container"><iframe src="https://player.vimeo.com/video/61474633" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div></div>
+        <div class="span6"><a rel="group" href="#" title="Overview"><img src="#"></a></div>
     </div>
 
 </div>
