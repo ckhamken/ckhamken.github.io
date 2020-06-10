@@ -372,7 +372,7 @@ a#connect:active { padding:1em; margin:inherit; }
 
 
 /* work */
-.work .span4 {
+.work-portfolio .span4 {
 	border-radius:10px;
 	border:1px solid #BBB;
 	height:300px;
@@ -382,26 +382,24 @@ a#connect:active { padding:1em; margin:inherit; }
     overflow:hidden;
     transition: box-shadow 0.2s, opacity .5s linear;
 }
-.work .span4:hover { box-shadow: 0.05em 0.05em 1em 1em #CCC; }
-.work .span6:hover { box-shadow:none; }
-.work .section { border-bottom:1px dotted #AAA; margin-top:2em; }
-.work .row:first-child {
+.work-portfolio .span4:hover { box-shadow: 0.05em 0.05em 1em 1em #CCC; }
+.work-portfolio .row:first-child {
     height:200px;
     text-align:center;
     overflow:hidden;
    }
-.work .row img {
+.work-portfolio .row img {
     border:0;
     height:200px;
 	margin:0;
     padding:0;
     width:auto;
 }
-.work .row {
+.work-portfolio .row {
     padding-left:1em;
     width:auto;
 }
-.work .description {
+.work-portfolio .description {
     border-top:1px solid #BBB;
 	font-weight:bold;
     line-height:1em;
@@ -411,11 +409,13 @@ a#connect:active { padding:1em; margin:inherit; }
     text-align:center;
     width:95%;
 }
-.work .description .comment {
+.work-portfolio .description .comment {
 	font-weight:normal;
     letter-spacing:0.03em;
     color:#555;
 }
+.work .span4:hover, .span6:hover { box-shadow:none; }
+.work .section { border-bottom:1px dotted #AAA; margin-top:2em; }
 .work .vid_container {
     position:relative;
     padding:0;
