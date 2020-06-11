@@ -256,43 +256,49 @@ a#connect:active { padding:1em; margin:inherit; }
     margin:0;
     width:100%;
 }
-.gear .row {
+
+.gear { width:70%; }
+.gear .span6 {
 	border-radius:10px;
 	border:1px solid #CCC;
-	width:500px;
-    padding:1em;
-	margin:1em auto;
+    padding-top:1em;
+    padding-bottom:1em;
+	margin:0.5em auto;
 	vertical-align:middle;
     overflow:hidden;
+    box-shadow:none;
+    min-width:380px;
 }
-.gear .span2 {
-    width:100px;
+.gear .span6:first-child {
+    margin-right:1em;
+}
+.gear .span6 .thumb {
+    float:left;
     text-align:center;
-   }
-.gear .span2 img {
+    width:150px;
+    margin:0;
+    padding-left:1em;
+    padding-right:1em;
+}
+.gear .span6 .thumb img {
     height:80px;
-	margin:0;
+	margin:0 auto;
     padding:0;
 }
-.gear .span6 {
+.gear .span6 .description {
     border-left:1px solid #CCC;
-    padding-left:1em;
-    width:auto;
-    box-shadow:none;
-}
-.gear .description {
 	font-weight:bold;
-    margin-top:0;
+    float:left;
+    padding-left:1em;
 }
-.gear .description .comment {
+.gear .span6 .description .comment {
 	font-weight:normal;
-    font-size:smaller;
+    font-size:0.9em;
     letter-spacing:0.03em;
     color:#555;
 }
-.gear .description a {
+.gear .span6 .description a {
     font-weight:normal;
-    font-size:smaller;
 }
 
 
