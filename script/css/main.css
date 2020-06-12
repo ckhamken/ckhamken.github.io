@@ -8,7 +8,6 @@ body {
 .clearfix { clear:both; }
 .clearfooter { height:100px; clear:both; }
 img { //background-color:#EEE; }
-.fancybox-title-over { bacground-color:rgba(0,0,0,0.5); }
 a:link { background-color:none; color:#428bca; }
 a:visited { background-color:none; color:#428bca; }
 a:hover { background-color:none; color:#000; }
@@ -61,8 +60,6 @@ a#connect:active { padding:1em; margin:inherit; }
     padding:1em 0;
     margin-bottom:1em;
 }
-
-
 
 
 /* header navigation */
