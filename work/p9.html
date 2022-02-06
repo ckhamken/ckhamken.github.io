@@ -72,27 +72,55 @@
 	<h2 class="title">Robotic Grinding Cell</h2>
 
 	<h4>Project role and responsibilities</h4>
-
+    <b>Lead Mechanical Engineer</b>
 	<ul>
-		<li>Mechanical Lead</li>
+		<li>Cell layout</li>
 		<li>Robot End-of-Arm Tool (EOAT) design</li>
 		<li>Infeed module design</li>
-		<li>Robot programming</li>
+        <li>Pneumatic schematics</li>
+		<li>Robot programming (Fanuc RoboGuide)</li>
 	</ul>
 
 
 	<h4>Overview</h4>
 	<p>Cycle time: 40 seconds</p>
-    <p>Customer's desire was to improve upon their current semi-auto process comprised of an operator loading casted steel components into a part holding fixture to have the casting gates removed by a grinding operation.</p>
-    <p>Part of the inefficiencies of this existing process is that the grinding belt required to be replaced every 20-30 minutes. Each belt costs approximately $70-$90 each (if not bulk purchased, which would be qty 25 minimum). Over the course of one(1) day or a week, the running costs of replacing belt approaches $8,000 a week. </<p>
+    <p>Customer's desire was to improve upon their current manual process comprised of an operator loading individual casted steel components into a part holding fixture to have the casting gates removed by a backstand grinding operation.</p>
+    <p>Part of the inefficiencies of this existing process is that the grinding belt is replaced every 20-30 minutes. Belts in this field are are tested and designed to last the longest when force applied onto it is evenly distributed and consistent. Unfortunately, these ideal conditions cannot be achieved with a manual operator even if they are skillfully competent. Each belt costs approximately $70-$90 each if not bulk purchased; bulk order requires minimum quantity of 25. Over the course of one(1) week, the running costs of replacing belt approaches $8,000, and that's with a one(1) shift production schedule. Another inefficiency is that with any manual process, there is inherit potential for scrap parts to be produced whether it be in small or large quantities. Operators naturally fatigue over the course of a shift, and the performance varies from one operator to another. When product is being produced at the scale of thousands and the cost to scrap even one(1) part is expensive, then consistency is vital.</p>
+    <p>When this process is performed by a robot, the force applied onto the belt can be both evenly distributed and consistent without fatigue, and not to mention the fact that it can operate 24 hours a day, 7 days a week, 365 days a year in what is referred to in the industry as "running lights out".</p>
+    <p>Casting gates are ground down from an approximate height of 20mm (0.75-inch) down to a window of 0.13mm to 0.50mm (0.005-inch to 0.020-inch). </p>
 
     <div class="row-fluid">
-        <div class="span6"><a rel="group" href="images/p9a.jpg" title="Overview"><img src="images/p9a.jpg"></a></div>
-        <div class="span6"><a rel="group" href="images/p9b.jpg" title="Overview"><img src="images/p9b.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9a.jpg" title="Overview"><img src="images/p9a.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9b.jpg" title="Overview"><img src="images/p9b.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9b.jpg" title="Overview"><img src="images/p9b.jpg"></a></div>
     </div>
+    
+    <hr/>
+    <h4>Infeed</h4>
+    <p>Incoming product are loaded into product specific fixtures that are comprised of 3D printed nests. Once fully loaded, the fixture is advanced into the cell and locked into position for robot picking.</p>
     <div class="row-fluid">
-        <div class="span6"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
-        <div class="span6"> &nbsp; </div>
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+    </div>
+
+    <hr/>
+    <h4>Vision &amp; Contactless Measurement</h4>
+    <p>Once the robot has picked the product from infeed and before proceeding to grinding, the robot presents the product in front of a Vision Camera where it is scanned to determine the precise position of the product within the grip of the robot EOAT. A positional value is applied to the robot that correlates the programmed motions of the robot relative to the actual position of the product within the gripper.</p>
+    <p>Measurement of the finished casting gates are processed with a profilometer device. This device obtains a 2D profile line scan of the gate and the immediate adjacent area. Average peak and valley values are obtained and used to calculate the actual height of the gate.</p>
+    <div class="row-fluid">
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+    </div>
+
+    <hr/>
+    <h4>Robot EOAT</h4>
+    <p>A pneumatic parallel gripper with a gripping force of 9,000-N (2,000-lbf) was sized to be used to grip and securely hold the product as the robot applies up to 90-lbf against an 18-inch grind wheel spinning up to 16,000 rpm. This gripper is mounted to a pneumatic quick-change module that allows the robot to automatically exchange tools as needed. These tools are automatically stored and retrieved from within a tool storage cabinet that is integrated with a vinyl roll up door that automatically seals it off from dust particles produced from the grinding operation.</p>
+    <div class="row-fluid">
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
+        <div class="span4"><a rel="group" href="images/p9c.jpg" title="Overview"><img src="images/p9c.jpg"></a></div>
     </div>
 
 </div>
@@ -102,7 +130,7 @@
 <div id="footer">
 <div class="container">
     <ul class="clearfix">
-        <li>[C] 2020 Chris Khamken</li>
+        <li>[C] 2022 Chris Khamken</li>
         <div class="nav-pull-right">
             <li><a href="https://www.linkedin.com/in/chriskhamken/" target="_blank">LinkedIn</a></li>
             <li><a href="https://www.instagram.com/ckhamken/" target="_blank">Instagram</a></li>
