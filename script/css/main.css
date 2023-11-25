@@ -21,7 +21,7 @@ a.button:active { background-color:#428bca; border:1px solid #FFF; color:#FFF; p
 h2.title { font-size:xx-large; font-weight:bolder; padding:0; margin-top:0; }
 .summary { font-size:1.1em; }
 p.subtitle { font-size:1.5em; font-weight:500; color:#96a1ad; margin-bottom:1.5em; }
-p.note { color:#666; font-size:smaller; margin:0; padding:0; margin:2em auto; box-shadow:none; }
+p.note { color:#666; font-size:smaller; font-style:italic; margin:0; padding:0; margin:2em auto; box-shadow:none; }
 p.quote { 
     border-left:1em solid #DDD;
     font-style:italic;
